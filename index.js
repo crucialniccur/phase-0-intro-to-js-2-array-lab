@@ -5,3 +5,7 @@ console.log(cats);
 function destructivelyAppendCat(name) {
   cats.push(name);
 }
+
+function destructivelyPrependCat(name) {
+  cats.unshift(name);
+}
