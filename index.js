@@ -21,3 +21,7 @@ function destructivelyRemoveFirstCat(name) {
 function appendCat(name) {
   return [...cats, name];
 }
+
+function prependCat(name) {
+  return [name, ...cats];
+}
